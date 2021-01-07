@@ -1,16 +1,16 @@
 {
-  "name": "monorepo-develop-template",
+  "name": "monorepo-template",
   "private": true,
   "author": "arvinxx(arvinx@foxmail.com)",
   "description": "monorepo develop template",
   "workspaces": [
     "packages/*"
   ],
-  "homepage": "https://github.com/arvinxx/monorepo-develop-template#readme",
+  "homepage": "https://github.com/arvinxx/monorepo-template#readme",
   "bugs": {
-    "url": "https://github.com/arvinxx/monorepo-develop-template"
+    "url": "https://github.com/arvinxx/monorepo-template"
   },
-  "repository": "git+https://github.com/arvinxx/monorepo-develop-template.git",
+  "repository": "git+https://github.com/arvinxx/monorepo-template.git",
   "license": "MIT",
   "scripts": {
     "start": "concurrently \"yarn api:dev\" \"yarn site:dev\"",
