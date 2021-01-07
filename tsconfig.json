@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "noEmit": true,
+    "noEmitOnError": false,
+    "lib": ["esnext", "dom"],
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "target": "es5",
+    "baseUrl": ".",
+    "jsx": "react",
+    "paths": {
+      "@uxdm/schema": ["./packages/schema/src"],
+      "@uxdm/model-sketch": ["./packages/model-sketch/src"],
+      "@uxdm/model-sketch/*": ["./packages/model-sketch/src/*"],
+      "@uxdm/model-konva": ["./packages/model-konva/src"],
+      "@uxdm/model-konva/*": ["./packages/model-konva/src/*"],
+      "uxdm/*": ["./packages/uxdm/src/*"],
+      "uxdm": ["./packages/uxdm/src"],
+      "react-uxdm-editor": ["./packages/react-uxdm-editor/src"],
+      "react-uxdm-editor/*": ["./packages/react-uxdm-editor/src/*"]
+    }
+  },
+  "exclude": ["config", "scripts"]
+}
