@@ -12,15 +12,7 @@
     "baseUrl": ".",
     "jsx": "react",
     "paths": {
-      "@uxdm/schema": ["./packages/schema/src"],
-      "@uxdm/model-sketch": ["./packages/model-sketch/src"],
-      "@uxdm/model-sketch/*": ["./packages/model-sketch/src/*"],
-      "@uxdm/model-konva": ["./packages/model-konva/src"],
-      "@uxdm/model-konva/*": ["./packages/model-konva/src/*"],
-      "uxdm/*": ["./packages/uxdm/src/*"],
-      "uxdm": ["./packages/uxdm/src"],
-      "react-uxdm-editor": ["./packages/react-uxdm-editor/src"],
-      "react-uxdm-editor/*": ["./packages/react-uxdm-editor/src/*"]
+      "foo": ["./packages/foo/src"],
     }
   },
   "exclude": ["config", "scripts"]

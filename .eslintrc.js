@@ -20,11 +20,7 @@ module.exports = {
   settings: {
     'import/resolver': {
       alias: {
-        map: [
-          ['uxdm', './packages/uxdm/src'],
-          ['@uxdm/schema', './packages/schema/src'],
-          ['@uxdm/model-sketch', './packages/model-sketch/src'],
-        ],
+        map: [['foo', './packages/foo/src']],
       },
       typescript: {
         alwaysTryTypes: true,

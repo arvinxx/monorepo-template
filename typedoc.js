@@ -3,14 +3,8 @@
  * 快查地址: https://typedoc.org/guides/options/
  */
 module.exports = {
-  name: 'uxdm',
+  name: 'template',
   // 以 modules 的形式输出文档
-  mode: 'modules',
-  inputFiles: [
-    'packages/uxdm/src',
-    'packages/schema/src',
-    'packages/model-sketch/src',
-  ],
   out: 'apis',
   exclude: '**/*+(index|.spec|.e2e).ts',
   excludePrivate: true,
