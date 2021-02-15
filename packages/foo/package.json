@@ -7,6 +7,10 @@
   ],
   "main": "lib/index.js",
   "module": "es/index.js",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
   "dependencies": {
     "@sigi/core": "^2.4.4",
     "@sigi/devtool": "^2.4.4",

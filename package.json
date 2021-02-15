@@ -54,9 +54,6 @@
     ],
     "**/*.{ts,tsx}": "npm run lint-staged:ts"
   },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org"
-  },
   "devDependencies": {
     "@babel/core": "^7.8.3",
     "@babel/plugin-proposal-object-rest-spread": "^7.8.3",
