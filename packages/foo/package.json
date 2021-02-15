@@ -18,6 +18,7 @@
   "scripts": {
     "build": "father-build",
     "test": "jest",
-    "cov": "jest --coverage"
+    "cov": "jest --coverage",
+    "clean": "rm -rf es lib dist build coverage .umi"
   }
 }
