@@ -1,5 +1,17 @@
 # 更新日志
 
+## @arvinxu/modules-foo [1.0.1](https://github.com/arvinxx/monorepo-template/compare/@arvinxu/modules-foo@1.0.0...@arvinxu/modules-foo@1.0.1) (2021-02-15)
+
+
+### 🐛 修复
+
+* 修正模块发布仓库配置项 ([cc96c10](https://github.com/arvinxx/monorepo-template/commit/cc96c10))
+
+
+### 📝 文档
+
+* 调整日志 ([2ce6def](https://github.com/arvinxx/monorepo-template/commit/2ce6def))
+
 # @arvinxu/modules-foo 1.0.0 (2021-02-15)
 
 ### ✨ 新特性
