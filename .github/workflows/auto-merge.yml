@@ -27,6 +27,7 @@ jobs:
       - run: yarn lint
       - run: yarn test
       - run: yarn build
+
       - uses: ahmadnassri/action-dependabot-auto-merge@v2
         with:
           command: merge

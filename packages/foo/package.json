@@ -1,10 +1,12 @@
 {
-  "name": "@arvinxx/modules-foo",
+  "name": "@arvinxu/modules-foo",
   "version": "1.0.0",
   "files": [
     "lib",
     "es"
   ],
+  "main": "lib/index.js",
+  "module": "es/index.js",
   "dependencies": {
     "@sigi/core": "^2.4.4",
     "@sigi/devtool": "^2.4.4",

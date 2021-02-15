@@ -18,7 +18,7 @@
     "baseUrl": ".",
     "paths": {},
 
-    /* 检查 */
+    /* 类型 */
     "skipLibCheck": true
   }
 }
