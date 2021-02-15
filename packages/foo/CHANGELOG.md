@@ -1,5 +1,17 @@
 # 更新日志
 
+# @arvinxu/modules-foo [1.1.0](https://github.com/arvinxx/monorepo-template/compare/@arvinxu/modules-foo@1.0.1...@arvinxu/modules-foo@1.1.0) (2021-02-15)
+
+
+### ✨ 新特性
+
+* 添加测试 ([70fd0da](https://github.com/arvinxx/monorepo-template/commit/70fd0da))
+
+
+### 🎫 杂项
+
+* **config**: 调整打包配置项 ([3466542](https://github.com/arvinxx/monorepo-template/commit/3466542))
+
 ## @arvinxu/modules-foo [1.0.1](https://github.com/arvinxx/monorepo-template/compare/@arvinxu/modules-foo@1.0.0...@arvinxu/modules-foo@1.0.1) (2021-02-15)
 
 

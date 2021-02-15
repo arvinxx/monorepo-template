@@ -1,6 +1,6 @@
 {
   "name": "@arvinxu/modules-foo",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "files": [
     "lib",
     "es"
