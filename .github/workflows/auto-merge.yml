@@ -1,17 +1,19 @@
-name: Test CI
-on: [push, pull_request]
-jobs:
-  test:
-    runs-on: ubuntu-latest
+name: Dependabot Auto Merge
+on:
+  pull_request:
+    types: [labeled, edited]
 
+jobs:
+  merge:
+    if: contains(github.event.pull_request.labels.*.name, 'dependencies')
+    name: Dependabot Auto Merge
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.1.2
         with:
           node-version: '14'
-
       - name: Cache multiple paths
         uses: actions/cache@v2
         with:
@@ -21,12 +23,12 @@ jobs:
             !~/cache/exclude
             **/node_modules
           key: npm-${{ runner.os }}-${{ hashFiles('yarn.lock') }}
-
-      - name: install
-        run: yarn
-
-      - name: test
-        run: yarn test:coverage
-
-      - name: Generate coverage
-        run: bash <(curl -s https://codecov.io/bash)
+      - run: yarn
+      - run: yarn lint
+      - run: yarn test
+      - run: yarn build
+      - uses: ahmadnassri/action-dependabot-auto-merge@v2
+        with:
+          command: merge
+          target: minor
+          github-token: ${{ secrets.GH_TOKEN }}

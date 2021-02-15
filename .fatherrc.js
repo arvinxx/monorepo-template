@@ -1,8 +1,6 @@
 module.exports = {
   entry: 'src/index.ts',
   cjs: 'babel',
-  esm: {
-    type: 'babel',
-    importLibToEs: true,
-  },
+  target: 'node',
+  extraBabelPlugins: ['add-module-exports'],
 };

@@ -1,12 +1,14 @@
-name: Test CI
-on: [push, pull_request]
+name: Release CI
+on:
+  push:
+    branches:
+      - master
 jobs:
-  test:
+  release:
+    name: Release
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v2
-
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.1.2
         with:
@@ -25,8 +27,11 @@ jobs:
       - name: install
         run: yarn
 
-      - name: test
-        run: yarn test:coverage
+      - name: Test
+        run: yarn test
 
-      - name: Generate coverage
-        run: bash <(curl -s https://codecov.io/bash)
+      - name: Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: yarn release

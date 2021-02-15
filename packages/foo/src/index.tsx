@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import type { FC } from 'react';
 
 const Modules: FC = () => {
   return <div>Hello! </div>;
