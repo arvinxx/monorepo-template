@@ -16,8 +16,9 @@
     //
     /* Alias 路径 */
     "baseUrl": ".",
-    "paths": {},
-
+    "paths": {
+      "@arvinxu/modules-foo": ["./packages/foo/src"]
+    },
     /* 类型 */
     "skipLibCheck": true
   }

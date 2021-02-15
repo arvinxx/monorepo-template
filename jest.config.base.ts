@@ -10,7 +10,7 @@ const baseConfig: Config.InitialOptions = {
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
   verbose: true,
   moduleNameMapper: {
-    '^foo/(.*)$': '<rootDir>/packages/foo/src/$1',
+    '@arvinxu/modules-foo': '<rootDir>/packages/foo/src',
   },
   rootDir: path.resolve(__dirname, '.'),
   globals: {

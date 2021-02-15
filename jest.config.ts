@@ -3,7 +3,7 @@ import baseConfig from './jest.config.base';
 
 const config: Config.InitialOptions = {
   ...baseConfig,
-  projects: ['<rootDir>/packages/*/jest.config.js'],
+  projects: ['<rootDir>/packages/*/jest.config.ts'],
   moduleDirectories: ['node_modules'],
   collectCoverageFrom: ['<rootDir>/packages/*/src/**/*.ts'],
   coverageDirectory: '<rootDir>/coverage/',
