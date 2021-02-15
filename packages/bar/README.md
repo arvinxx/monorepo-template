@@ -2,8 +2,6 @@
 
 [![NPM version][version-image]][version-url] [![NPM downloads][download-image]][download-url]
 
-a commitlint plugin to add gitmoji check rule
-
 ## License
 
 [MIT](../../LICENSE) ® Arvin Xu
