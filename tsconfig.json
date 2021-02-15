@@ -16,6 +16,9 @@
     //
     /* Alias 路径 */
     "baseUrl": ".",
-    "paths": {}
+    "paths": {},
+
+    /* 检查 */
+    "skipLibCheck": true
   }
 }

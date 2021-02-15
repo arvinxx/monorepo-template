@@ -1,3 +1,0 @@
-tasks:
-  - init: yarn
-    command: npm start

@@ -79,6 +79,7 @@
     "@umijs/preset-react": "1.x",
     "@umijs/test": "^3.2.10",
     "babel-loader": "^8.1.0",
+    "babel-plugin-add-module-exports": "^1.0.4",
     "babel-plugin-import": "^1.12.2",
     "commitlint": "^11.0.0",
     "commitlint-config-cz": "^0.13.1",

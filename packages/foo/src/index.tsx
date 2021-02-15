@@ -1,7 +1,7 @@
 import type { FC } from 'react';
 
-const Modules: FC = () => {
+const Foo: FC = () => {
   return <div>Hello! </div>;
 };
 
-export default Modules;
+export default Foo;

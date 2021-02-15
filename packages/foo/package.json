@@ -1,6 +1,10 @@
 {
-  "name": "foo",
+  "name": "@arvinxx/modules-foo",
   "version": "1.0.0",
+  "files": [
+    "lib",
+    "es"
+  ],
   "dependencies": {
     "@sigi/core": "^2.4.4",
     "@sigi/devtool": "^2.4.4",
@@ -11,5 +15,7 @@
     "react-dom": "^16.9.0",
     "react-intl": "^5.10.1"
   },
-  "scripts": {}
+  "scripts": {
+    "build": "father-build"
+  }
 }
