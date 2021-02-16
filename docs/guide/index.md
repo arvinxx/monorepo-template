@@ -40,7 +40,7 @@ const config = {
 };
 ```
 
-### 配置测试文件 alias
+然后需要在 根目录的 `.babelrc` 文件中配置 `module-resolver` 的 `alias` 配置项
 
 ## 配置 father-build
 

@@ -1,16 +1,13 @@
-import type { Config } from '@jest/types';
-import base from '../../jest.config';
+const base = require('../../jest.config.base');
 
 const packageName = '@arvinxu/modules-bar';
 
 const root = '<rootDir>/packages/bar';
 
-const config: Config.InitialOptions = {
+module.exports = {
   ...base,
   rootDir: '../..',
   roots: [root],
   name: packageName,
   displayName: packageName,
 };
-
-export default config;
