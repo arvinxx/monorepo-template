@@ -34,6 +34,11 @@
     insert-css "^2.0.0"
     rc-util "^5.0.1"
 
+"@ant-design/pro-skeleton@^1.0.0-beta.2":
+  version "1.0.0-beta.2"
+  resolved "https://registry.npm.taobao.org/@ant-design/pro-skeleton/download/@ant-design/pro-skeleton-1.0.0-beta.2.tgz#ef5d22fafc95c559b90e71978343eae7e786902c"
+  integrity sha1-710i+vyVxVm5DnGXg0Pq5+eGkCw=
+
 "@ant-design/react-slick@~0.28.1":
   version "0.28.1"
   resolved "https://registry.npm.taobao.org/@ant-design/react-slick/download/@ant-design/react-slick-0.28.1.tgz?cache=0&sync_timestamp=1609770194412&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40ant-design%2Freact-slick%2Fdownload%2F%40ant-design%2Freact-slick-0.28.1.tgz#2e0720838cb57ab8818384dcc96b2a8c61fcd01e"
