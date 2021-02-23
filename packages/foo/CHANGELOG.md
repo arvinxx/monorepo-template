@@ -1,5 +1,12 @@
 # 更新日志
 
+# @arvinxu/foo [1.1.0](https://github.com/arvinxx/monorepo-template/compare/@arvinxu/foo@1.0.0...@arvinxu/foo@1.1.0) (2021-02-23)
+
+
+### ✨ 新特性
+
+* 添加 umd 打包产物 ([e7945e4](https://github.com/arvinxx/monorepo-template/commit/e7945e4))
+
 # @arvinxu/foo 1.0.0 (2021-02-23)
 
 
