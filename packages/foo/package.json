@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "files": [
     "lib",
-    "es"
+    "es",
+    "dist"
   ],
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -17,6 +18,7 @@
   },
   "scripts": {
     "build": "father-build",
+    "webpack": "webpack",
     "test": "jest",
     "test:update": "jest  -u",
     "cov": "jest --coverage",

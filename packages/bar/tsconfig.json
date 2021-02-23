@@ -5,6 +5,10 @@
     "jsx": "react-jsx",
     "skipLibCheck": true,
     /* 模块导入配置项 */
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "baseUrl": "../..",
+    "paths": {
+      "@arvinxu/foo": ["./packages/foo/src"]
+    }
   }
 }

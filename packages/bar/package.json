@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "files": [
     "lib",
-    "es"
+    "es",
+    "dist"
   ],
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -11,12 +12,16 @@
     "registry": "https://registry.npmjs.org",
     "access": "public"
   },
+  "dependencies": {
+    "@arvinxu/foo": "0.0.0"
+  },
   "peerDependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
   "scripts": {
     "build": "father-build",
+    "webpack": "webpack",
     "test": "jest",
     "test:update": "jest -u",
     "cov": "jest --coverage",
