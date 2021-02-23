@@ -2,6 +2,11 @@
 
 exports[`Bar 1`] = `
 <div>
-  World!
+  <div>
+    hello Bar!
+    <div>
+      Hello! 
+    </div>
+  </div>
 </div>
 `;

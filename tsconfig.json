@@ -18,8 +18,8 @@
     /* Alias 路径 */
     "baseUrl": ".",
     "paths": {
-      "@arvinxu/modules-foo": ["./packages/foo/src"],
-      "@arvinxu/modules-bar": ["./packages/bar/src"]
+      "@arvinxu/foo": ["./packages/foo/src"],
+      "@arvinxu/bar": ["./packages/bar/src"]
     },
     /* 类型 */
     "skipLibCheck": true

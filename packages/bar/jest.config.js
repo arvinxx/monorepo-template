@@ -1,6 +1,6 @@
 const base = require('../../jest.config.base');
 
-const packageName = '@arvinxu/modules-bar';
+const packageName = '@arvinxu/bar';
 
 const root = '<rootDir>/packages/bar';
 

@@ -2,6 +2,8 @@
 
 exports[`Foo 1`] = `
 <div>
-  Hello! 
+  <div>
+    Hello! 
+  </div>
 </div>
 `;

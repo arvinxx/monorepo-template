@@ -1,5 +1,5 @@
 {
-  "name": "@arvinxu/modules-foo",
+  "name": "@arvinxu/foo",
   "version": "1.1.0",
   "files": [
     "lib",
@@ -11,13 +11,14 @@
     "registry": "https://registry.npmjs.org",
     "access": "public"
   },
-  "dependencies": {
+  "peerDependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
   "scripts": {
     "build": "father-build",
     "test": "jest",
+    "test:update": "jest  -u",
     "cov": "jest --coverage",
     "clean": "rm -rf es lib dist build coverage .umi"
   }
