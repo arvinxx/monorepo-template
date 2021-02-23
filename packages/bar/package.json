@@ -13,7 +13,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@arvinxu/foo": "0.0.0"
+    "@arvinxu/foo": "*"
   },
   "peerDependencies": {
     "react": "^17.0.1",
