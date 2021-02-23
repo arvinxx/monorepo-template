@@ -1,5 +1,25 @@
 # 更新日志
 
+# @arvinxu/bar [1.1.0](https://github.com/arvinxx/monorepo-template/compare/@arvinxu/bar@1.0.0...@arvinxu/bar@1.1.0) (2021-02-23)
+
+
+### ✨ 新特性
+
+* 添加 umd 打包产物 ([e7945e4](https://github.com/arvinxx/monorepo-template/commit/e7945e4))
+
+
+### 👷 构建系统
+
+* 修正依赖版本 ([cb6c3aa](https://github.com/arvinxx/monorepo-template/commit/cb6c3aa))
+
+
+
+
+
+### Dependencies
+
+* **@arvinxu/foo:** upgraded to 1.1.0
+
 # @arvinxu/bar 1.0.0 (2021-02-23)
 
 
