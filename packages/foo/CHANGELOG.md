@@ -1,5 +1,17 @@
 # 更新日志
 
+# @arvinxu/foo [2.0.0](https://github.com/arvinxx/monorepo-template/compare/@arvinxu/foo@1.1.0...@arvinxu/foo@2.0.0) (2023-04-21)
+
+
+### ✨ 新特性
+
+* 升级基础设施 ([a7ed506](https://github.com/arvinxx/monorepo-template/commit/a7ed506)), closes [#3](https://github.com/arvinxx/monorepo-template/issues/3)
+
+
+### 💥 BREAKING CHANGES
+
+* 全量依赖大版本升级
+
 # @arvinxu/foo [2.0.0-beta.1](https://github.com/arvinxx/monorepo-template/compare/@arvinxu/foo@1.1.0...@arvinxu/foo@2.0.0-beta.1) (2023-04-21)
 
 
