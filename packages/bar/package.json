@@ -1,6 +1,6 @@
 {
   "name": "@arvinxu/bar",
-  "version": "2.0.0-beta.1",
+  "version": "2.0.0",
   "files": [
     "lib",
     "es",
@@ -13,7 +13,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@arvinxu/foo": "2.0.0-beta.1"
+    "@arvinxu/foo": "2.0.0"
   },
   "peerDependencies": {
     "react": "^18",
