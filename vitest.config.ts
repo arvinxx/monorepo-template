@@ -13,5 +13,9 @@ export default defineConfig({
       '@arvinxu/foo': join(__dirname, '/packages/foo/src'),
       '@arvinxu/bar': join(__dirname, '/packages/bar/src'),
     },
+    coverage: {
+      provider: 'c8',
+      reporter: ['text', 'json', 'lcov', 'text-summary'],
+    },
   },
 });
