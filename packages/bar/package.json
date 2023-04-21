@@ -16,15 +16,15 @@
     "@arvinxu/foo": "1.1.0"
   },
   "peerDependencies": {
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react": "^18",
+    "react-dom": "^18"
   },
   "scripts": {
-    "build": "father-build",
-    "webpack": "webpack",
-    "test": "jest",
-    "test:update": "jest -u",
+    "build": "father build",
+    "test": "vitest",
+    "test:update": "vitest  -u",
     "cov": "jest --coverage",
+    "doctor": "father doctor",
     "clean": "rm -rf es lib dist build coverage .umi"
   }
 }
