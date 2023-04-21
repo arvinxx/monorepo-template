@@ -21,7 +21,7 @@ jobs:
         run: pnpm install
 
       - name: ✅ 测试检查
-        run: pnpm run test:cov
+        run: pnpm run test:coverage
 
       - name: ⬆️上传至 Codecov
         uses: codecov/codecov-action@v3
