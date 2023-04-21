@@ -71,6 +71,7 @@
     "concurrently": "^7",
     "cross-env": "^7",
     "dumi": "^2",
+    "antd": "^5",
     "jsdom": "^21",
     "dumi-theme-antd-style": "latest",
     "dumi-assets-types": "^1",
