@@ -1,5 +1,27 @@
 # 更新日志
 
+# @arvinxu/bar [2.1.0](https://github.com/arvinxx/monorepo-template/compare/@arvinxu/bar@2.0.0...@arvinxu/bar@2.1.0) (2023-05-09)
+
+
+### ✅ 测试
+
+* 升级 test demo ([e7ed9fe](https://github.com/arvinxx/monorepo-template/commit/e7ed9fe))
+
+
+### ✨ 新特性
+
+* 优化 father 构建配置 ([f6c093f](https://github.com/arvinxx/monorepo-template/commit/f6c093f))
+* 更新 prettier 配置 ([b451843](https://github.com/arvinxx/monorepo-template/commit/b451843))
+* 更新 react18 相关构建配置 ([4b5981e](https://github.com/arvinxx/monorepo-template/commit/4b5981e))
+
+
+
+
+
+### Dependencies
+
+* **@arvinxu/foo:** upgraded to 2.1.0
+
 # @arvinxu/bar [2.0.0](https://github.com/arvinxx/monorepo-template/compare/@arvinxu/bar@1.1.0...@arvinxu/bar@2.0.0) (2023-04-21)
 
 

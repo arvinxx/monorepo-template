@@ -1,6 +1,6 @@
 {
   "name": "@arvinxu/bar",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "lib/index.d.ts",
@@ -18,7 +18,7 @@
     "test:update": "vitest  -u"
   },
   "dependencies": {
-    "@arvinxu/foo": "2.0.0"
+    "@arvinxu/foo": "2.1.0"
   },
   "peerDependencies": {
     "react": "^18",
