@@ -1,6 +1,5 @@
-import React from 'react';
-import type { FC } from 'react';
 import Foo from '@arvinxu/foo';
+import type { FC } from 'react';
 
 const Bar: FC = () => {
   return (

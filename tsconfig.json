@@ -1,12 +1,11 @@
 {
   "compilerOptions": {
-    "noEmit": true,
-
+    "declaration": true,
     /* 模块导入配置项 */
     "moduleResolution": "Node",
     "esModuleInterop": true,
 
-    "jsx": "react",
+    "jsx": "react-jsx",
     /* 模块依赖 */
     // 这些选项对 babel 编译 TypeScript 没有作用
     // 但是可以让编辑器正确提示错误
@@ -21,6 +20,7 @@
       "@arvinxu/foo": ["./packages/foo/src"],
       "@arvinxu/bar": ["./packages/bar/src"]
     },
+    "types": ["vitest/globals"],
     /* 类型 */
     "skipLibCheck": true
   }
