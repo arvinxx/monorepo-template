@@ -1,27 +1,28 @@
 {
   "name": "@arvinxu/foo",
   "version": "2.0.0",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "types": "lib/index.d.ts",
   "files": [
     "lib",
     "es",
     "dist"
   ],
-  "main": "lib/index.js",
-  "module": "es/index.js",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org",
-    "access": "public"
+  "scripts": {
+    "build": "father build",
+    "clean": "rm -rf es lib dist build coverage .dumi",
+    "doctor": "father doctor",
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "test:update": "vitest -u"
   },
   "peerDependencies": {
     "react": "^18",
     "react-dom": "^18"
   },
-  "scripts": {
-    "build": "father build",
-    "test": "vitest",
-    "test:coverage": "vitest run --coverage",
-    "test:update": "vitest -u",
-    "doctor": "father doctor",
-    "clean": "rm -rf es lib dist build coverage .dumi"
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   }
 }

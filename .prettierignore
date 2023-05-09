@@ -16,3 +16,4 @@ LICENSE
 .eslintcache
 *.lock
 yarn-error.log
+package.json
